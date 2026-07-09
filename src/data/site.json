@@ -1,0 +1,12 @@
+{
+  "name": "Saad Wasim",
+  "role": "Software Engineer",
+  "tagline": "Software Engineer Graduate — building clean, reliable software.",
+  "navLinks": [
+    { "label": "About", "href": "about" },
+    { "label": "Experience", "href": "experience" },
+    { "label": "Projects", "href": "projects" },
+    { "label": "Contact", "href": "contact" }
+  ],
+  "githubProjectsUrl": "https://github.com/Verifiedz"
+}

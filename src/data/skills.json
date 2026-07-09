@@ -1,0 +1,20 @@
+[
+  { "name": "C#", "icon": "/images/skills/csharp.svg", "color": "#239120" },
+  { "name": ".NET", "icon": "/images/skills/dotnet.svg", "color": "#512BD4" },
+  { "name": "PostgreSQL", "icon": "/images/skills/postgresql.svg", "color": "#4169E1" },
+  { "name": "MySQL", "icon": "/images/skills/MySQL.svg", "color": "#4169E1" },
+  { "name": "Docker", "icon": "/images/skills/docker.svg", "color": "#2496ED" },
+  { "name": "Redis", "icon": "/images/skills/redis.svg", "color": "#DC382D" },
+  { "name": "Python", "icon": "/images/skills/python.svg", "color": "#3776AB" },
+  { "name": "Java", "icon": "/images/skills/java.svg", "color": "#ED8B00" },
+  { "name": "React Native", "icon": "/images/skills/react.svg", "color": "#61DAFB" },
+  { "name": "AngularJs", "icon": "/images/skills/angular.svg", "color": "#65EAFB" },
+  { "name": "Node.js", "icon": "/images/skills/nodejs.svg", "color": "#339933" },
+  { "name": "JavaScript", "icon": "/images/skills/javascript.svg", "color": "#F7DF1E" },
+  { "name": "TypeScript", "icon": "/images/skills/typescript.svg", "color": "#3178C6" },
+  { "name": "Azure", "icon": "/images/skills/azure.svg", "color": "#0089D6" },
+  { "name": "Kubernetes", "icon": "/images/skills/kubernetes.svg", "color": "#326CE5" },
+  { "name": "Linux", "icon": "/images/skills/linux.svg", "color": "#FCC624" }, 
+  { "name": "Jenkins", "icon": "/images/skills/Jenkins.svg", "color": "#FCC624" },
+  { "name": "Git", "icon": "/images/skills/git.svg", "color": "#F05032" }
+]

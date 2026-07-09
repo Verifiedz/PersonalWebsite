@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "sakina-ai",
+    "title": "Sakina AI - AI Wellness Companion",
+    "image": "/images/projects/sakina-ai.png",
+    "description": "A microservices-based mobile wellness application integrating an autonomous 6-container Docker architecture and a locally fine-tuned language model.",
+    "longDescription": "Sakina AI was developed as a comprehensive mobile wellness companion that provides AI-driven conversational support, mood journaling, and timezone-aware push notifications. Transitioning from an initial architectural blueprint to a live system, the backend was orchestrated into four core microservices (Chat, Auth, AI Wrapper, and Notification) passing through a high-throughput YARP API Gateway. To ensure strict user privacy and eliminate recurring cloud costs, a lightweight open-source LLM was fine-tuned locally using QLoRA with 4-bit NF4 quantization, maintaining target inference latencies under three seconds. On the data layer, a Redis Cache-Aside pattern was integrated with the PostgreSQL instances to achieve an approximate 87% average reduction in session-retrieval latency under multi-user concurrent loads.",
+    "contributions": [
+      "Engineered the microservices backend using C# ASP.NET Core 9.0 and deployed a 6-container Docker architecture via a YARP API Gateway.",
+      "Optimized session retrieval performance by implementing a Redis Cache-Aside pattern, dropping median latency from 185ms to 18ms (an 87% reduction).",
+      "Configured and integrated a locally deployed QLoRA fine-tuned LLM using 4-bit quantization to handle empathetic, wellness-aligned user chat queries with sub-3-second inference.",
+      "Developed a cross-platform mobile frontend utilizing React Native (Expo SDK 54) with secure device token storage and Expo Push API timezone-aware notification handling."
+    ],
+    "tags": ["C#", ".NET", "Docker", "PostgreSQL", "Redis", "YARP", "React Native", "QLoRA"],
+    "repoUrl": "https://github.com/Verifiedz/AI-Wellness-Platform"
+  },
+  {
+    "slug": "financial-portfolio-manager",
+    "title": "Financial Portfolio Management Web App",
+    "image": "/images/projects/financial-portfolio.png",
+    "description": "A microservices-based financial platform engineered to securely execute and visualize TFSA and cryptocurrency transactions.",
+    "longDescription": "This project is a modular, microservices-based financial web application designed to execute and manage real-time Tax-Free Savings Account (TFSA) and cryptocurrency asset transactions. The platform utilizes a robust Java and Apache Tomcat backend infrastructure integrated with a MySQL database layout. To ensure secure user entry and horizontal scalability, independent RESTful APIs were engineered for stock trading, crypto account management, and user registration, all tied together using cross-service JSON Web Token (JWT) session management. On the frontend, a highly interactive interface was constructed using vanilla JavaScript, HTML, and CSS to deliver responsive financial performance tracking and real-time market trend charting, culminating in a 25% optimization in database processing efficiency.",
+    "contributions": [
+      "Engineered the platform's microservices architecture using Java, Apache Tomcat, and MySQL to seamlessly handle high-throughput asset transactions.",
+      "Designed and developed independent, modular RESTful APIs for automated stock trading, crypto accounts, and user registration workflows.",
+      "Implemented secure stateless user authentication and cross-service session validation by integrating JSON Web Tokens (JWT).",
+      "Built a dynamic frontend interface to render interactive charts visualizing real-time market trends, improving database processing efficiency by 25%."
+    ],
+    "tags": ["Java", "Tomcat", "MySQL", "REST API", "JavaScript", "JWT", "HTML/CSS"],
+    "repoUrl": "https://github.com/Verifiedz/FirstGenFunds"
+  }
+]

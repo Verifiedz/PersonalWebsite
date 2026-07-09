@@ -1,0 +1,20 @@
+[
+  {
+    "company": "SOTI",
+    "role": "Software Developer Intern",
+    "logo": "/images/experience/soti.svg",
+    "startDate": "Sep 2024",
+    "endDate": "Aug 2025",
+    "location": "Toronto, ON",
+    "details": "Developed and optimized server-side features using C#, .NET, and SQL Server for enterprise applications, reducing API response times by 30% through improved query handling. Built and integrated a SQL translator and service-layer logic for an AI-powered chatbot, enabling it to process over 1,000 natural language queries daily. Enhanced the performance of the Packages Epic module, leading to a 40% reduction in database load and 25% faster load times."
+  },
+  {
+    "company": "TMU Innovation Boost Zone (TelHab)",
+    "role": "Software Developer Intern",
+    "logo": "/images/experience/tmu-ibz.webp",
+    "startDate": "Sep 2023",
+    "endDate": "Jan 2024",
+    "location": "Toronto, ON (Remote)",
+    "details": "Selected through the university incubator to spearhead full-stack development for an early-stage health-tech startup. Led resource optimization and system performance enhancements by strategically selecting databases and web hosting services. Developed the company website and Physician Portal MVP using React.js and Node.js, resulting in a 50% increase in online user engagement and a 20% reduction in page load times."
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "heading": "About Me",
+  "image": "/images/about/portrait.jpg",
+  "description": [
+    "I am a Software Engineering graduate from Toronto Metropolitan University with a passion for building highly scalable, well-architected systems.",
+    "My professional experience spans the entire stack—from optimizing enterprise C# and .NET backend services to developing polished, responsive web applications using React.",
+    "Whether I am deploying containerized microservices via Docker, fine-tuning my Linux workspace, or designing intricate world maps and mechanics for custom tabletop campaigns, I am driven by a love for complex problem-solving and clean design."
+  ]
+}

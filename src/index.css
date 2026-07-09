@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Luxury tech — Black & Gold theme.
+ * shadcn/ui reads these HSL CSS variables. We ship a single dark theme:
+ * a deep solid off-black (#0A0A0A) with a flat #B8860B gold accent.
+ */
+@layer base {
+  :root,
+  .dark {
+    --background: 0 0% 4%; /* #0A0A0A — deep solid off-black */
+    --foreground: 45 30% 94%; /* warm off-white */
+
+    --card: 0 0% 6%;
+    --card-foreground: 45 30% 94%;
+
+    --primary: 43 89% 38%; /* flat gold #B8860B */
+    --primary-foreground: 0 0% 5%;
+
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 45 30% 94%;
+
+    --muted: 0 0% 12%;
+    --muted-foreground: 45 8% 62%;
+
+    --accent: 43 89% 38%;
+    --accent-foreground: 0 0% 5%;
+
+    --border: 36 22% 18%;
+    --input: 0 0% 14%;
+    --ring: 43 89% 38%;
+
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  /* Offset for the fixed navbar when jumping to a section anchor. */
+  section[id] {
+    scroll-margin-top: 5rem;
+  }
+}
+
+@layer utilities {
+  /* Flat, solid champagne gold — clean, no shine or gradient. */
+  .text-gold {
+    color: #b8860b;
+  }
+
+  /* Dark glassmorphic surface with a delicate gold hairline border. */
+  .glass-gold {
+    @apply border border-[#B8860B]/70 bg-white/5 backdrop-blur-md;
+  }
+}
