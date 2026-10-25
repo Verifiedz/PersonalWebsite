@@ -91,3 +91,22 @@ export interface Social {
   label: string;
   url: string;
 }
+
+/** The "Also Building" spotlight — a venture in active development. */
+export interface Shimmer {
+  heading: string;
+  name: string;
+  /** Path/URL to the logo image. */
+  logo: string;
+  description: string;
+  /** Short status label, e.g. "Building the MVP". */
+  status: string;
+  /** One line of detail under the status label. */
+  statusDetail: string;
+  /** Feature pills shown as badges. */
+  features: string[];
+  /** Optional tech mentioned in a quiet meta line, not as a headline. */
+  tech?: string[];
+  /** Live/landing page link once one exists. */
+  link?: string | null;
+}

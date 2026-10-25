@@ -1,0 +1,18 @@
+{
+  "heading": "Also Building",
+  "name": "Shimmer",
+  "logo": "/images/shimmer/shimmer-logo.webp",
+  "description": "Shimmer is a local-first operating layer for your personal workflow — one place to track your goals, schedule your time, and automate the busywork, with everything running on your own machine and no account required.",
+  "status": "Building the MVP",
+  "statusDetail": "Core engine actively under construction — pre-launch.",
+  "features": [
+    "Task queue",
+    "Scheduler",
+    "Goal tracking",
+    "Automation",
+    "Local-first",
+    "No account needed"
+  ],
+  "tech": ["Rust"],
+  "link": null
+}
