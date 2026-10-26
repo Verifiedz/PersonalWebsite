@@ -93,6 +93,18 @@ export default {
             opacity: "0.24",
           },
         },
+        "glow-c": {
+          "0%, 100%": { transform: "translate(0, 0) scale(1)", opacity: "0.12" },
+          "50%": {
+            transform: "translate(-5%, -6%) scale(1.15)",
+            opacity: "0.18",
+          },
+        },
+        // A faint light band sweeping top to bottom, like a radar/scan pass.
+        scan: {
+          "0%": { transform: "translateY(-100%)" },
+          "100%": { transform: "translateY(100%)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -102,6 +114,8 @@ export default {
         shimmer: "shimmer 6s linear infinite",
         "glow-a": "glow-a 14s ease-in-out infinite",
         "glow-b": "glow-b 12s ease-in-out infinite",
+        "glow-c": "glow-c 16s ease-in-out infinite",
+        scan: "scan 9s ease-in-out infinite",
       },
     },
   },

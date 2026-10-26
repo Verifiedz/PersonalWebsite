@@ -9,24 +9,17 @@ const site = siteData as SiteConfig;
 /**
  * Landing hero — the first thing visitors see. Introduces who I am and offers
  * a scroll cue into the sections below.
+ *
+ * Ambient glow/grid behind the content comes from the app-wide
+ * <BackgroundFX> layer rather than a local one, so the effect is consistent
+ * across the whole page instead of resetting at each section.
  */
 export default function LandingHero() {
   return (
     <section
       id="top"
-      className="relative flex min-h-screen items-center justify-center overflow-hidden bg-zinc-950"
+      className="relative flex min-h-screen items-center justify-center"
     >
-      {/* Ambient glow — slow-drifting, blurred gold orbs behind the content.
-          Kept at z-0 with pointer-events-none so text stays crisp and clickable. */}
-      <div
-        aria-hidden
-        className="pointer-events-none absolute inset-0 z-0 overflow-hidden"
-      >
-        <div className="absolute left-[15%] top-[20%] h-[30rem] w-[30rem] -translate-x-1/2 rounded-full bg-[#B8860B] opacity-20 blur-3xl animate-glow-a" />
-        <div className="absolute right-[12%] top-[35%] h-[26rem] w-[26rem] translate-x-1/2 rounded-full bg-[#B8860B] opacity-20 blur-3xl animate-glow-b" />
-        <div className="absolute bottom-[10%] left-1/2 h-[24rem] w-[24rem] -translate-x-1/2 rounded-full bg-[#B8860B] opacity-10 blur-3xl animate-glow-a" />
-      </div>
-
       <div className="container relative z-10 flex flex-col items-center text-center">
         <p className="mb-5 text-xs font-medium uppercase tracking-[0.4em] text-primary">
           {site.role}
